@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <title>tipCalculator</title>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content="width=device-width">
+        <link rel = "stylesheet" href = "style.css">
+        
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "container1" >
+                <form >
+                    <p>Bill</p>
+                    <input type = "number" id = "bill" autocomplete = "off" value = "0.00" >
+                    <p>Tip %</p>
+                    <div class="stepper" >
+                        <button id = "subtract">-</button>
+                        <input type = "number" id = "tip-percent" value = "10" >
+                        <button id = "add">+</button>
+                    </div>
+                    <p>Number of people</p>
+                    <div class = "stepper" >
+                        <button id = "subtract1">-</button>
+                        <input type = "number" id = "num-person" value = "1" >
+                        <button id = "add1">+</button>
+                    </div>
+
+                </form>
+            </div>
+            <div class = "container2">
+                <div id = "tip-text">
+                    <p>Tip</p>
+                    <p class = "small-text">per person</p>
+                </div>
+                <div id = "tip">
+                    <span>$</span>
+                    <input type = "number" id = "tip-value" value = "0.00" readonly>
+                </div>
+                <div id = "total-text">
+                    <p>Total</p>
+                    <p class = "small-text">per person</p>
+                </div>
+                <div id = "total">
+                    <span>$</span>
+                    <input type = number  id = "bill-value" value = "0.00" readonly>
+                </div>
+            </div>   
+        </div>
+    </body>
+    <script  type = "text/javascript" src = "script.js"></script>
+</html>

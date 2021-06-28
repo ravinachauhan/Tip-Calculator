@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*hiding the arrows of input field*/
+input::-webkit-inner-spin-button , input::-webkit-outer-spin-button{      
+    -webkit-appearance : none;
+    margin: 0;
+}
+
+input {
+    outline:none;
+}
+
+.container {
+    border: 1px solid rgb(223, 215, 215);
+    display: block;
+    height: 300px;
+    width: 700px;
+
+}
+
+.container1 {
+    border-right: 1px solid rgb(223, 215, 215);;
+    float: left;
+    width: 210px;
+    height: 300px;
+}
+
+form > p {
+    color: rgb(148, 141, 141);
+    
+}
+form {
+    padding:12px;
+}
+
+.stepper {
+    border: 1px solid rgb(223, 215, 215);
+    display: inline-block;
+    overflow: visible;
+    height: 2.1em;
+    background: #fff;
+    padding: 1px;
+}
+
+.stepper input {
+    width: 7em;
+    height: 100%;
+    text-align: center;
+    border: 0;
+    background: transparent;
+    color: #000;
+}
+
+.stepper button {
+    width: 1.4em;
+    font-weight: 300;
+    height: 100%;
+    line-height: 0.1em;
+    font-size: 1.4em;
+    padding: 0.2em !important;
+    background: #eee;
+    color: #333;
+    border: none;
+}
+
+#bill {
+    width: 12.2em;
+    height:2.1em;
+    border: 1px solid rgb(223, 215, 215);
+    text-align: center;
+}
+
+.container2 {
+    border: 1px solid grey;
+    width: 480px;
+    border: none;
+    float: right;
+    height: inherit;
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 30% 50%;
+    column-gap: 0px;
+    
+}
+
+.container2 > div {
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 35px;
+    
+}
+
+
+.container2 > div > p {
+    text-align: justify;
+    margin-left: 10px;
+    margin-bottom: 1px;
+    
+}
+.container2 > div > input {
+    font-size: 25px;
+    text-align: center;
+    font-size: 55px;
+    height: 120px;
+    width: 170px;
+    float: right;
+    border: none;
+    padding-left: 0px;
+    
+}
+span {
+    float: left;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 50px;
+}
+
+p.small-text {
+    margin-top:0px;
+    font-size: 20px;
+    color:rgb(148, 141, 141);
+}
+
+#tip,#total {
+    width: 210px;
+}
+
